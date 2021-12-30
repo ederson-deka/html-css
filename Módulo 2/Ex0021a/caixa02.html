@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(192, 192, 192, 0.897);
+            margin: 0px;
+
+        }
+        header{
+            background-color: rgba(228, 203, 203, 0.219);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: lightyellow;
+            padding: 3px;
+            color: mediumaquamarine;
+            font-weight: bold;
+            box-shadow: 5px 3px 1px rgba(0, 0, 0, 0.493);
+    
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: mediumturquoise;
+            font-weight: bold;
+            margin-right: 30px;
+
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: rgba(192, 161, 103, 0.849);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 10px 20px 10px;
+            box-shadow: 5px 3px 1px rgba(0, 0, 0, 0.493);
+        }
+
+        article{
+            background-color: rgb(211, 202, 187);
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: rgba(214, 226, 214, 0.911);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Cultar Esporte Lazer</p>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Coisas que acontecem</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas labore sequi quam ipsam quibusdam perspiciatis cumque, soluta porro eum quisquam saepe ipsa culpa a reprehenderit delectus, harum magnam. Nisi, placeat.</p>
+                <aside>
+                    <p>Artigo escrito por Ederson Déka</p>
+                </aside>
+
+            </article>
+            <article>
+                <h2>Novidades da semana</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, vel! Aspernatur in reiciendis ad, ipsum cupiditate explicabo laboriosam inventore tempora eligendi, numquam reprehenderit adipisci temporibus recusandae distinctio sed nobis tempore!</p>
+
+            </article>
+
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por Ederson Déka</p>
+
+    </footer>
+    <div id="bola"></div>
+
+    
+</body>
+</html>

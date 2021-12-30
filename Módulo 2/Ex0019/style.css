@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/*
+em HTNL é id e em CSS é #
+em HTNL é class e em CSS é .
+*/
+
+body {
+    background-color: rgb(189, 230, 221);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1#principal{
+    text-align: center;
+    color: white;
+    background: chartreuse;
+}
+h1 {
+    color: #145C50;
+}
+h2 {
+
+}
+.basico{
+    color: #32ED48;
+    font-weight: bold;
+    background: blanchedalmond;
+
+
+}
+
+.intermediario{
+    color: #D6CD22;
+    font-weight: bold;
+}
+.avancado{
+    color: #110c27;
+}
